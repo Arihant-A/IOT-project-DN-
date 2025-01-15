@@ -20,6 +20,7 @@ void setup()
   // Connect to WiFi network
   WiFi.begin(ssid, password);
   ThingSpeak.begin(client);
+  pinMode(2, OUTPUT);
 }
 
 void loop()
