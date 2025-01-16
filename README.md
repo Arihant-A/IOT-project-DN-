@@ -28,3 +28,6 @@ How It Works
   Timeout: If the watchdog timer is not reset within this time, it assumes the system is malfunctioning and performs a corrective action, usually restarting the system (a watchdog reset).
 
 yield(): Resets the watchdog timer in ESP8266 to prevent it from triggering during long tasks.
+
+Checked library comparison for VL53L0X for "pololu" and "Adafruit".
+![image](https://github.com/user-attachments/assets/445fcdd9-cfc6-4083-9a85-a432c77526d5)
