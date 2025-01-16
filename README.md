@@ -15,3 +15,10 @@ Choose VL53L1X if:
 You need longer-range measurements.
 High accuracy is essential.
 You require adjustable FoV or multi-zone detection.
+
+Learnt about Watchdog timer. is a hardware or software timer used in embedded systems to detect and recover from system malfunctions. It ensures that the system continues operating correctly, especially inscenarios where the program gets stuck in an infinite loop, crashes, or hangs.
+How It Works
+  Setup: The watchdog timer is configured to count down from a predefined value (timeout period).
+  Feeding the Dog: During normal operation, the program must reset the watchdog timer (commonly called "feeding" or "kicking" the watchdog) within the timeout period.
+  Timeout: If the watchdog timer is not reset within this time, it assumes the system is malfunctioning and performs a corrective action, usually restarting the system (a watchdog reset).
+yield(): Resets the watchdog timer in ESP8266 to prevent it from triggering during long tasks.
