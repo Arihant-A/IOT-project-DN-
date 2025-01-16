@@ -78,3 +78,4 @@ String updateWebpage(uint8_t LEDstatus){
   ptr +="</html>\n";
   return ptr;
 }
+//Credits ~ BinaryUpdates
