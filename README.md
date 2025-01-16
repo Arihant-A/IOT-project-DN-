@@ -20,8 +20,11 @@ Learnt about Watchdog timer. is a hardware or software timer used in embedded sy
 
 How It Works
   
+  
   Setup: The watchdog timer is configured to count down from a predefined value (timeout period).
+  
   Feeding the Dog: During normal operation, the program must reset the watchdog timer (commonly called "feeding" or "kicking" the watchdog) within the timeout period.
+  
   Timeout: If the watchdog timer is not reset within this time, it assumes the system is malfunctioning and performs a corrective action, usually restarting the system (a watchdog reset).
 
 yield(): Resets the watchdog timer in ESP8266 to prevent it from triggering during long tasks.
