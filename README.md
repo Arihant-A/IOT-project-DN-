@@ -33,3 +33,6 @@ Checked library comparison for VL53L0X for "pololu" and "Adafruit".
 ![image](https://github.com/user-attachments/assets/445fcdd9-cfc6-4083-9a85-a432c77526d5)
 
 Moved onto using Node red, started with making simple turn on turn off program.
+
+Finding Potenial Use for GPS module. Tried with different modules and different ways.
+Use NEO6m and SIM28ML module to find the location.
