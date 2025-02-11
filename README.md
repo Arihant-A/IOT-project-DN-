@@ -36,3 +36,5 @@ Moved onto using Node red, started with making simple turn on turn off program.
 
 Finding Potenial Use for GPS module. Tried with different modules and different ways.
 Use NEO6m and SIM28ML module to find the location.
+Found the location using both on different platforms.
+Trying to upload this data on any website.
