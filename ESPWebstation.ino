@@ -3,7 +3,7 @@
 
 /*Put WiFi SSID & Password*/
 const char* ssid = "LH";   // Enter SSID here
-const char* password = "agarwal@18"; // Enter Password here
+const char* password = "@18"; // Enter Password here
 
 ESP8266WebServer server(80);
 #define D4 2
