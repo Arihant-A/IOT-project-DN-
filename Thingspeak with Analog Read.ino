@@ -3,15 +3,15 @@
 #include <ThingSpeak.h>
 
 const char* ssid = "LH";   // Your Network SSID
-const char* password = "agarwal@18";       // Your Network Password
+const char* password = "@18";       // Your Network Password
 
 int val;
 int pin = A0; 
 
 WiFiClient client;
 
-unsigned long myChannelNumber = 2810743; //Your Channel Number (Without Brackets)
-const char * myWriteAPIKey = "IV0CY6949MLIHC11"; //Your Write API Key
+unsigned long myChannelNumber = *******; //Your Channel Number (Without Brackets)
+const char * myWriteAPIKey = "****************"; //Your Write API Key
 
 void setup()
 {
