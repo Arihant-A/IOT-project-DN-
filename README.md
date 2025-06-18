@@ -1,4 +1,3 @@
-Making of a Smart Dustbin project utlising different resources.
 Addition of various codes ranging from simple blink to final product using ESP8266, Node MCU.
 ![image](https://github.com/user-attachments/assets/a45f9845-0013-4d9f-9903-9abd1d422119)
 
