@@ -5,7 +5,7 @@
 #include <ThingSpeak.h>
 
 const char* ssid = "LH";   // Your Network SSID
-const char* password = "agarwal@18";       // Your Network Password
+const char* password = "@18";       // Your Network Password
 
 // Define RX and TX pins for GPS module
 static const int RXPin = D7;  // GPIO13 (D7) for RX
@@ -15,8 +15,8 @@ static const uint32_t GPSBaud = 9600;
 WiFiClient client;
 // The TinyGPSPlus object
 TinyGPSPlus gps;
-unsigned long myChannelNumber = 2810743; //Your Channel Number (Without Brackets)
-const char * myWriteAPIKey = "IV0CY6949MLIHC11"; //Your Write API Key
+unsigned long myChannelNumber = *******; //Your Channel Number (Without Brackets)
+const char * myWriteAPIKey = "****************"; //Your Write API Key
 
 // Use SoftwareSerial for GPS communication
 SoftwareSerial SerialGPS(RXPin, TXPin);
