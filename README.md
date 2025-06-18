@@ -37,3 +37,7 @@ Finding Potenial Use for GPS module. Tried with different modules and different 
 Use NEO6m and SIM28ML module to find the location.
 Found the location using both on different platforms.
 Trying to upload this data on any website.
+
+![Research_Poster_Print_A2_HD](https://github.com/user-attachments/assets/bf24ec8e-3803-49c8-aee6-3bfdb1b879b7)
+A project built with a mission in mind, to help the farmers. Automatic irrigation integration with respect to live forecast of rain and humidity and sensing of the soil moisture. Controlled motors via relay, showed results on LCD screen with on going graphs and meters.
+![50f5ed78-fe1d-4a30-9436-afe572876b41 copy](https://github.com/user-attachments/assets/cad7fc63-d00f-4ff8-8832-2cec011a62d5)
